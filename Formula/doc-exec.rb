@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.17.0 at 2025-10-23T12:30:37.823776394Z
+# Generated with JReleaser 1.17.0 at 2025-10-23T14:12:47.407080891Z
 
 class DocExec < Formula
   desc "ComboStrap Doc Exec"
