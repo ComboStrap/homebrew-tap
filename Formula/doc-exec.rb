@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.21.0 at 2025-11-05T13:32:17.699251303Z
+# Generated with JReleaser 1.21.0 at 2025-11-05T18:41:46.024959225Z
 
 class DocExec < Formula
   desc "ComboStrap Doc Exec"
@@ -8,19 +8,19 @@ class DocExec < Formula
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/combostrap/doc-exec/releases/download/v1.0.0/combostrap-doc-exec-1.0.0-jre-linux-arm64.zip"
-    sha256 "364851969300530bb5835ca9c449df5cca488023954657f2f1a755999c94c4d4"
+    sha256 "cbde9461a30f8e6d741bb30bfe9edf1d3b1bab9c51ebd1a6e92e96ceec306b52"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/combostrap/doc-exec/releases/download/v1.0.0/combostrap-doc-exec-1.0.0-jre-linux-x64.zip"
-    sha256 "9ba3b6e214d12be1e6de2ec9077f7c5700c31f5234da02016b4b09529a68c57e"
+    sha256 "483359a8b8a9c97445cf8820e650c93379b50a093810e4e03e08cc4d6f370d7b"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/combostrap/doc-exec/releases/download/v1.0.0/combostrap-doc-exec-1.0.0-jre-macos-arm64.zip"
-    sha256 "8cfe9a31fc601a0b10f2f9cd5f231472e286b437e5b8363dd613d0eca3498594"
+    sha256 "4d229dc1e0a9126c5b777ac125ac40e377f6207076a57059d309a47ebf579f81"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/combostrap/doc-exec/releases/download/v1.0.0/combostrap-doc-exec-1.0.0-jre-macos-x64.zip"
-    sha256 "486f7620a04f8bcadd672716489fdccd55f657d1795a442f19af60cda3e41aaf"
+    sha256 "5819bdad86e366916502c120654a58f89afb6c2427ec99f5c5498e9cff58b885"
   end
 
 
